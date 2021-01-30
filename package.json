@@ -1,0 +1,23 @@
+{
+  "name": "@rescript/std",
+  "version": "8.5.0-dev.1",
+  "keywords": [
+    "rescript",
+    "stdlib",
+    "functional programming"
+  ],
+  "author": {
+    "name": "Hongbo Zhang"
+  },
+  "maintainers": [
+    {
+      "name": "hongbo_zhang",
+      "email": "bobzhang1988@gmail.com"
+    }
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/rescript-lang/std/issues"
+  },
+  "homepage": "https://github.com/rescript-lang/std#readme"
+}
