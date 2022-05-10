@@ -23,6 +23,9 @@ cd ../std
 rm -rf lib/es6
 rm -rf lib/js
 
+# Create a separate branch for a PR
+git checkout -b update-x-y-z
+
 # Copy the runtime files
 cp -R ../temp-project/node_modules/rescript/lib/es6 lib
 cp -R ../temp-project/node_modules/rescript/lib/js lib
@@ -30,7 +33,11 @@ cp -R ../temp-project/node_modules/rescript/lib/js lib
 # Check the diffs and if everything looks fine, check in the changes
 git add lib
 git commit -m "Update changes for x.y.z"
+
+# Push your changes and create a PR
+git push
 ```
+
 
 ## Publish to `npm`
 
