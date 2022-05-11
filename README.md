@@ -1,8 +1,6 @@
 # A light weight  runtime for ReScript.
 
-The motiviation of this repo is that when ReScript users want to 
-share their library with JS users, the JS users don't need have 
-ReScript toolchain installed, this makes sharing code with JS users easier.
+The motiviation of this repo is that when ReScript users want to share their library with JS users, the JS users don't need have ReScript toolchain installed, this makes sharing code with JS users easier (more details on that topic can be found in our [External Stdlib Docs](https://rescript-lang.org/docs/manual/latest/build-external-stdlib)).
 
 It shares the same version schema with ReScript compiler.
 
