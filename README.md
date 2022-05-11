@@ -1,5 +1,3 @@
-
-
 # A light weight  runtime for ReScript.
 
 The motiviation of this repo is that when ReScript users want to 
@@ -13,3 +11,7 @@ When you use this library, the config would be adding such things in bsconfig.js
 ```json
 "external-stdlib" : "@rescript/std"
 ```
+
+## Contributing
+
+See the [CONTRIBUTING.md](CONTRIBUTING.md).
